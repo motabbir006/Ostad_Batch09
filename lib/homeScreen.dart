@@ -116,7 +116,7 @@ class _Contact_listState extends State<Contact_list> {
               decoration: InputDecoration(
                 hintText: 'Name',
                 hintStyle:
-                const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                const TextStyle(fontSize: 20, fontWeight: FontWeight.bold,color: Colors.grey),
                 border: OutlineInputBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
