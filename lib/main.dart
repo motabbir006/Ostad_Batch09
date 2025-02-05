@@ -1,3 +1,4 @@
+import 'package:assignment2/Livetest.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +15,8 @@ class contactApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Contact_list(),
+     // home: Contact_list(),
+      home: liveTest(),
     );
   }}
 
