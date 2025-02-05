@@ -8,6 +8,8 @@ void main(){
 }
 
 class contactApp extends StatelessWidget{
+  const contactApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
